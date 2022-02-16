@@ -1,7 +1,7 @@
 //install nodemailer package first
 
 var nodemailer = require('nodemailer');
-const { text } = require('stream/consumers');
+// const { text } = require('stream/consumers');
 var transport = nodemailer.createTransport({
     host:'smtp.gmail.com',
     port:587,
